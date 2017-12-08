@@ -1,0 +1,36 @@
+.container-fluid {
+  padding: 12px;
+  color: #000;
+  font-size: 1.125em; }
+
+header h1 {
+  font-family: 'Bitter', serif;
+  color: #FFF;
+  text-align: center;
+  padding: 24px 32px 24px 24px;
+  font-size: 2.56578em; }
+
+#bio {
+  color: #FFF;
+  font-size: 1.125em;
+  margin: 0 24px; }
+  #bio a {
+    color: #0CF247;
+    font-weight: bold; }
+
+.section-1 {
+  top: 0;
+  bottom: 0;
+  background-image: url(../img/mark_speaking.jpg);
+  /* Set a specific height */
+  height: 97.5%;
+  width: 100%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: none; }
+
+/*# sourceMappingURL=styles.css.map */

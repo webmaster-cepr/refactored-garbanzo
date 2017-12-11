@@ -42,4 +42,11 @@ header h1 {
   border-radius: 20px;
   border: none; }
 
+@media screen and (max-width: 400px) {
+  header h1 {
+    font-size: 1.80203em; }
+
+  #bio {
+    font-size: 1em; } }
+
 /*# sourceMappingURL=styles.css.map */

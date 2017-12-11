@@ -18,6 +18,15 @@ header h1 {
     color: #0CF247;
     font-weight: bold; }
 
+#social-icons #facebook {
+  background-image: url(../img/fb-logo.png);
+  height: 72px;
+  width: 72px; }
+#social-icons #twitter {
+  background-image: url(../img/twitter-logo.png);
+  height: 72px;
+  width: 72px; }
+
 .section-1 {
   top: 0;
   bottom: 0;

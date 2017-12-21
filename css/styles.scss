@@ -54,12 +54,16 @@ table {
   
 /* END RESET CSS */
 
-body {
- background: #000;
+body, html {
+    height: 100%;
+    background: #000;
 }
 
 .container-fluid {
-    padding:12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
     color:#000;
     font-size: ms(1);
 }
@@ -84,6 +88,7 @@ p {
 #photo {
     background-image:url(../img/mark_speaking.jpg);
     background-repeat: no-repeat;
+    background-position: left -75px;     
 }
 
 #bio {
@@ -112,7 +117,35 @@ p {
 
 }
 
+@media screen and (max-width: 1366px) {
+
+    p { font-size:ms(0) }
+
+}
+
+@media screen and (max-width: 960px) { 
+
+    .container-fluid {
+        position:relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        padding: 12px 6px;
+    }    
+    
+   #photo {
+      background-position: -125px top;
+   }
+   
+    p { font-size:ms(-2); }
+    
+}
+
 @media screen and (max-width: 400px) { 
+    
+    #photo {
+        background-image:none;     
+    }    
 
     header {
         h1 {

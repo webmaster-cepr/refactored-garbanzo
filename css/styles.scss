@@ -88,7 +88,15 @@ p {
 #photo {
     background-image:url(../img/mark_speaking.jpg);
     background-repeat: no-repeat;
-    background-position: left -75px;     
+    background-position: left -75px;
+    p {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        color: #fff;
+        padding: 6px;
+        background-color: #000;
+    }
 }
 
 #bio {

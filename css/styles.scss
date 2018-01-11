@@ -109,6 +109,10 @@ p {
     }
 }
 
+#mobile-img {
+    display: none;
+}
+
 #social-icons {
 
     #facebook {
@@ -153,7 +157,15 @@ p {
     
     #photo {
         background-image:none;     
-    }    
+    } 
+    
+    #mobile-img {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        padding: 0 12px 24px 12px;
+    }   
 
     header {
         h1 {
